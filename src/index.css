@@ -1,0 +1,190 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  margin-top: 3%;
+  
+}
+.Nav li:hover,.Nav li:focus,
+.Nav li:hover a,
+.Nav li:focus s{
+  background-color: white;
+  color: black;
+}
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cfc3c3;
+}
+
+li {
+  float: left;
+}
+.Nav ul{
+  color: #fff;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.Nav li a{
+  color: #fff;
+  text-decoration: none;
+}
+.Nav{
+  background-color: black;
+}
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  
+  text-decoration: none;
+}
+.Header svg{
+  font-size: 2rem;
+}
+.Header h1{
+  font-size: 1.5rem;
+}
+.Header{
+  align-items: center;
+ width: 100%;
+ padding: 1%;
+ text-align: center;
+  background-color: aqua;
+  display: block;
+}
+.Footer{
+  padding: 0.75rem;
+  display: grid;
+ 
+}
+.searchForm{
+  width: 80%;
+  padding: 1rem 0 0 0.75rem;
+}
+.searchForm input[type="text"]{
+  font-family:Arial, Helvetica, sans-serif;
+  width: 100%;
+  min-height: 48px;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+.postDate{
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+.postBody{
+  margin: 1rem 0;
+}
+p{
+  margin-top: 2%;
+}
+.div1{
+  border-radius: 5px;
+  box-shadow:2px 2px rgba(0, 0, 0, 0.725);
+  margin-top: 4%;
+  width: 300px;
+  height: 100px;
+  border: 3px solid black;
+  margin-left: 30%;
+  
+}
+.post{
+  width: 500px;
+  height: 100px;
+  
+  margin-top: 2%;
+  
+}
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 400px;
+  height: 30px;
+}
+
+/* Styling when the input element is focused */
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Styling when the input element is hovered */
+input:hover {
+  background-color: #f5f5f5;
+}
+/* Styling for disabled input elements */
+input:disabled {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+label{
+  display: block;
+  margin-top: 1%;
+}
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #a1a6ab;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin-left: 45%;
+}
+
+/* Styling when the button is hovered */
+button[type="submit"]:hover {
+  background-color: #b3b7bc;
+}
+
+/* Styling when the button is clicked */
+button[type="submit"]:active {
+  background-color: #b1b7bd;
+}
+.custom-link {
+  color: #000000; /* Change this to your desired link color */
+  text-decoration: none;
+}
+
+/* Styling for the link when hovered */
+.custom-link:hover {
+  color: #727070; /* Change this to your desired hover color */
+}
+.myButton{
+  background-color: #5a5e66;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  
+
+}
+button :hover{
+  background-color: #ebeef0;
+}
+
+.post{
+  align-items: center;
+  width: 100%;
+}
